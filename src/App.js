@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route
-          index
+          path=""
           element={
             <>
               <h1>Toys</h1>
@@ -24,7 +24,7 @@ function App() {
             </>
           }
         ></Route>
-        <Route path="/privacy" element={<>privacy</>}></Route>
+        <Route path="privacy" element={<>privacy</>}></Route>
       </Routes>
     </div>
   );
