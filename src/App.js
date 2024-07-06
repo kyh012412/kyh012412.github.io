@@ -26,7 +26,8 @@ function App() {
           }
         ></Route>
         <Route path="privacy" element={<>privacy</>}></Route>
-        <Route path="*" element={<>NotFound</>}></Route>
+        <Route path="/privacy" element={<>privacysip</>}></Route>
+        <Route path="*" element={<>NotFoundLink</>}></Route>
       </Routes>
     </div>
   );
